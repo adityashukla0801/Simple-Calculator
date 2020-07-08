@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple calculator</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+</head>
+<body>
+  <div id="container">
+  <div>
+    <h1>Calculator<i class="fa fa-calculator"></i></h1>
+    <form action="submit" id="form">
+      <div>
+        <label for="">Enter 1st Number</label>
+        <input type="number" class="input-1">
+      </div>
+      <div>
+        <label for="">Enter 2nd Number</label>
+        <input type="number" class="input-2">
+      </div>
+      <div class="buttons">
+      <div>
+        <a href="#" class="add"><i class="fa fa-plus"></i></a>
+      </div>
+      <div>
+        <a href="#" class="sub"><i class="fa fa-minus"></i></a>
+      </div>
+      <div>
+        <a href="#" class="mul"><i class="fa fa-asterisk"></i></a>
+      </div>
+      <div>
+        <a href="#" class="div"><i class="fas fa-divide"></i></a>
+      </div>
+    </div>
+    </form>
+    <div id="result">
+      <div>
+        <h1>Result</h1>
+        <input type="number" class="output">
+      </div>
+    </div>
+  </div>
+</div>
+  <script src="./app.js"></script>
+</body>
+</html>
